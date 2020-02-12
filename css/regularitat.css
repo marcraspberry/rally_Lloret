@@ -5,26 +5,7 @@ body{
   height: 100%;
 }
 
-#foto_logo{
-  max-width: 256px;
 
-}
-#poster{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.carousel-item{
-  max-height: 200px
-  max-width: 200px;
-} 
-
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-}
 
 div.chrome {
   background:  #4f585e;
