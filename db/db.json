@@ -1,0 +1,124 @@
+{
+	"trams": [
+		{
+			"id": 1,
+			"Nom": "Tossa-St.Grau",
+			"Passada": 1,
+			"Hora_Inici": "17:40",
+			"DIA": "7/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 14.184
+		},
+		{
+			"id": 2,
+			"Nom": "Coll de Ravell",
+			"Passada": 1,
+			"Hora_Inici": "19:14",
+			"DIA": "7/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 5.8
+		},
+		{
+			"id": 3,
+			"Nom": "Collsaplana-Ravell",
+			"Passada": 1,
+			"Hora_Inici":" 19:41",
+			"DIA": "7/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 17.683
+		},
+		{
+			"id": 4,
+			"Nom": "Tossa-St.Grau",
+			"Passada": 2,
+			"Hora_Inici": "21:53",
+			"DIA": "7/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 14.184
+		},
+		{
+			"id": 5,
+			"Nom": "Coll de Ravell",
+			"Passada": 2,
+			"Hora_Inici": "23:27",
+			"DIA": "7/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 5.8
+		},
+		{
+			"id": 6,
+			"Nom": "Collsaplana-Ravell",
+			"Passada": 2,
+			"Hora_Inici": "23:57",
+			"DIA": "7/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 17.683
+		},
+		{
+			"id": 7,
+			"Nom": "Pujada els Angels",
+			"Passada": 1,
+			"Hora_Inici": "12:11",
+			"DIA": "8/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 9.484
+		},
+		{
+			"id": 8,
+			"Nom": "Sta Pellaia",
+			"Passada": 1,
+			"Hora_Inici": "12:39",
+			"DIA": "8/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km":  9.92
+		},
+		{
+			"id": 9,
+			"Nom": "Canyet",
+			"Passada": 1,
+			"Hora_Inici": "13:27",
+			"DIA": "8/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 17.425
+		},
+		{
+			"id": 10,
+			"Nom": "Pujada els Angels",
+			"Passada": 2,
+			"Hora_Inici": "15:32",
+			"DIA": "8/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 9.484
+		},
+		{
+			"id": 11,
+			"Nom": "Sta Pellaia",
+			"Passada": 2,
+			"Hora_Inici": "16:00",
+			"DIA": "8/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km": 9.92
+		},
+		{
+			"id": 12,
+			"Nom": "Canyet",
+			"Passada": 2,
+			"Hora_Inici": "16:48",
+			"DIA": "8/2/2020",
+			"Inici": "loc",
+			"Fi": "loc",
+			"Km":  17.425
+		}
+	]
+}

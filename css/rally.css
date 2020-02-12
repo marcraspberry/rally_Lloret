@@ -1,0 +1,83 @@
+html{
+  height: 100%;
+} 
+
+
+#foto_logo{
+  max-width: 256px;
+
+}
+#poster{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.carousel-item{
+  max-height: 200px
+  max-width: 200px;
+} 
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+div.chrome {
+  background:  #4f585e;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.site-footer {
+  background-color: #838383;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+
+.social-wrapper {
+  text-align: center;
+}
+
+.social-wrapper ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon{
+  margin-top: .625em;
+  width: 40px;
+  height: 40px;
+  opacity: .6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  border-radius: 25px;
+}
+
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.footer-nav p {
+  text-align: center;
+}
+.site-footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
