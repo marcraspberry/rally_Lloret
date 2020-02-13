@@ -68,10 +68,57 @@
 		    </div>
 		</div>
 	</nav>
+		
+	<main>
+		<h2>Contacta amb nosaltres</h2>
+		<div class="gran">
+			
+			<div class="container">
+				<div class="field">
+		  			<label class="label">Nom</label>
+		  			<div class="control">
+		    			<input id="nom" class="input" type="text" placeholder="Insereix nom">
+		  			</div>
+				</div>
 
+				<div class="field">
+				  	<label class="label">Email</label>
+				  	<div class="control has-icons-left">
+				    	<input id="email" class="input" type="email" placeholder="exemple@email.com">
+				    	<span class="icon is-small is-left">
+				      		<i class="fas fa-envelope"></i>
+				    	</span>
+				  	</div>
+				</div>
 
-
-	
+				<div class="field">
+					<label class="label">Missatge</label>
+				  	<div class="control">
+				    	<textarea id="missatge" class="textarea" placeholder="Insereix consulta o missatge"></textarea>
+				  	</div>
+				</div>
+				
+				<div class="field is-grouped">
+		  			<div class="control">
+		    			<button class="button is-success" onclick="submit()">Submit</button>
+		  			</div>
+		  			<div class="control">
+		    			<button class="button is-danger" onclick="cancel()">Cancel</button>
+		  			</div>
+				</div>
+				
+				<p>Estàs segur?</p>
+				<div class="control">
+		  			<label class="radio">
+		    			<input id="si" type="radio" name="answer">Si
+		  			</label>
+		  			<label class="radio">
+		    			<input id="no" type="radio" name="answer" checked="checked" >No
+		  			</label>
+				</div>
+			</div> 
+		</div>
+	</main>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="social-wrapper">
 			<ul>
@@ -92,7 +139,8 @@
 		<nav class="footer-nav" role="navigation">
 		<p>Copyright 2020-eternity Marc Cortadellas. All rights reserved.</p>
 		</nav>
-	</footer>
+	</footer>	
+
 
 </body>
 </html>

@@ -1,20 +1,4 @@
-html{
-  height: 100%;
-} 
-body{
-  height: 100%;
-}
 
-
-
-div.chrome {
-  background:  #4f585e;
-  height: 40px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
 
 .site-footer {
   background-color: #838383;
@@ -53,15 +37,5 @@ div.chrome {
 }
 
 .footer-nav p {
-  text-align: center;
-}
-
-.site-footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
   text-align: center;
 }

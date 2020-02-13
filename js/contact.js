@@ -29,3 +29,36 @@ document.querySelectorAll('.navbar-link').forEach(function(navbarLink){
     navbarLink.nextElementSibling.classList.toggle('is-hidden-mobile');
   })
 });
+
+function submit(){
+  var nom = document.getElementById("nom").value;
+  var email = document.getElementById("email").value;
+  var missatge = document.getElementById("missatge").value;
+  var si = document.getElementById("si").checked;
+  console.log(si);
+
+  if( si && nom.length >2 && email.length >6 && missatge.length>10 ){
+    alert("missatge enviat correctament")
+    document.getElementById("nom").value="";
+    document.getElementById("email").value="";
+    document.getElementById("missatge").value="";
+  }
+  else if(si){
+    alert("El nom, email o missatge són massa curts per enviar-se")
+  }
+}
+
+function cancel(){
+  var nom = document.getElementById("nom").value;
+  var email = document.getElementById("email").value;
+  var missatge = document.getElementById("missatge").value;
+  var si = document.getElementById("si").checked;
+  console.log(si);
+
+  if( si ){
+    alert("missatge borrat")
+    document.getElementById("nom").value="";
+    document.getElementById("email").value="";
+    document.getElementById("missatge").value="";
+  }
+}

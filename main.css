@@ -1,9 +1,3 @@
-html{
-  height: 100%;
-} 
-body{
-  height: 100%;
-}
 
 #foto_logo{
   max-width: 256px;
@@ -25,6 +19,7 @@ body{
   justify-content: center;
   align-items: center; 
 }
+
 
 div.chrome {
   background:  #4f585e;

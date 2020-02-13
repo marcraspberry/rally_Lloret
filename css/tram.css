@@ -1,9 +1,3 @@
-html{
-  height: 100%;
-} 
-body{
-  height: 100%;
-}
 h2{
   text-align: center;
 }
@@ -24,15 +18,6 @@ img{
 }
 
 
-
-div.chrome {
-  background:  #4f585e;
-  height: 40px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
 
 .site-footer {
   background-color: #838383;
