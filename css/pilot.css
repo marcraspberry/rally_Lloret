@@ -60,6 +60,8 @@ height: 100%;
   transition: 0.3s;
   width: 100%;
   margin-top: 15%;
+  margin-left: 30px;
+  height: 50%;
 }
 .card:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -74,6 +76,11 @@ height: 100%;
 #foto_perfil{
 	border-radius: 5px 5px 0 0;
 	width: 100%;
+}
+
+#Hora{
+  margin-top: 5px;
+  align-items: center;
 }
 
 .informacio{
@@ -102,7 +109,7 @@ height: 100%;
 @media screen and (max-width: 600px) {
   .parent {
     display: grid;
-    grid-template-columns: 10fr 0fr 40fr 0fr;
+    grid-template-columns: 10fr 10fr 40fr 0fr;
     grid-template-rows: 1fr ;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -110,5 +117,8 @@ height: 100%;
   }
   .div1 .div2 .div3 .div4{
     width: 100%;
+  }
+  .card{
+    height: 100%;
   }
 }

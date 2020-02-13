@@ -45,11 +45,12 @@
 				<p>BMW M3 E30</p>
 			</div>
 		</div>
-		<div class="div2"> </div>
+
 		<div class="div3">
 			<div id="informacio">
-				<button onclick="showTime()"> Hora actual</button>
-				<button onclick="createTime()"> Hora prova</button>
+				<button id="button_show" type ="button" class="btn btn-light" onclick="showTime()"> Hora actual</button>
+				<button id="button_create" type ="button" class="btn btn-light" onclick="createTime()"> Hora prova</button>
+				
 				<div id="Hora" class="input-group">
 					<div class="col-third">
 						<input id="data_hora" type="text" placeholder="HH"/>
@@ -63,7 +64,7 @@
 							<option>Dissabte, 8</option>
 						</select>
 					</div>
-					<button id="activacio" onclick="modifica_hora()"> activa</button>
+					<button id="button_activate" type ="button" class="btn btn-light" onclick="modifica_hora()"> activa</button>
 				</div>
 
 				<div id="MyClockDisplay" class="clock"></div></td>
