@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Participants velocitat-Lloret 2020</title>
-	
-	<link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Participants velocitat-Lloret 2020</title>
+		
+		<link rel="stylesheet" 
+	    href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="../css/velocitat.css">
+		<link rel="stylesheet" type="text/css" href="../css/velocitat.css">
 
-	<script src="../js/velocitat.js"></script>
+		<script src="../js/velocitat.js"></script>
+	</head>
 
-</head>
-<body>
+	<body>
 
-	<nav class="navbar" role="navigation" aria-label="main navigation">
-			<div class="navbar-brand">
-				
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">	
 			    <div role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
 					<span aria-hidden="true"></span>
 					<span aria-hidden="true"></span>
@@ -39,9 +38,9 @@
 						<a class="navbar-link">Participants</a>
 
 						<div class="navbar-dropdown">
-							<a class="navbar-item" href="velocitat.html">Velocitat</a>
-							<a class="navbar-item"href="regularitat.html" >Regularitat</a>
-							<a class="navbar-item" href="legends.html">Legends</a>
+							<a class="navbar-item" href="velocitat.html#velocitat">Velocitat</a>
+							<a class="navbar-item"href="velocitat.html#regularitat" >Regularitat</a>
+							<a class="navbar-item" href="velocitat.html#legends">Legends</a>
 				        </div>
 					</div>
 			    
@@ -65,31 +64,76 @@
 					</div>
 			    </div>
   			</div>
-	</nav>
-
-	
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="social-wrapper">
-			<ul>
-				<li>
-				    <a href="https://twitter.com/rallylloret" target="_blank">
-				    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
-				</li>
-				<li>
-				    <a href="https://www.instagram.com/rallylloret/" target="_blank">
-				    <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></a>
-				</li>
-				<li>
-				    <a href="https://www.facebook.com/RallyLloret/" target="_blank">
-				    <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
-				</li>
-			</ul>
-		</div>
-		<nav class="footer-nav" role="navigation">
-		<p>Copyright 2020-eternity Marc Cortadellas. All rights reserved.</p>
 		</nav>
-	</footer>	
+
+		<div class="container notification" id="velocitat">
+			<h2>Velocitat</h2>
+			<span>
+				La modalitat de velocitat, es la més coneguda de totes, consisteix en una contrarellotge, es suma el temps en tots els trams, el pilot que els hagi fet més ràpid guanya.<br><br>
+			</span>
+			<div class="parent">
+				<div class="div1">
+					<img src="../image/velo1.png"> 
+				</div>
+				<div class="div2">
+					<img src="../image/velo2.png"> 
+				</div>
+			</div>
+		</div>
+		
+		<div class="container notification" id="regularitat">
+			<h2>Regularitat</h2>
+			<span>
+				Aquest tipus de carrera consisteix en fer el tram a una mitjà de velocitat en tot el tram, la categoria Super Sport a 70 km/h i la Sport a 50km/h, aquí el guanyador es el que menys es desvia del temps objectiu, calculat apartir de la distància del tram i la velocitat mitjà objectiu.<br> <br>
+			</span>
+			<div class="parent">
+				<div class="div1">
+					<img src="../image/regu1.png"> 
+				</div>
+				<div class="div2">
+					<img src="../image/regu2.png"> 
+				</div>
+			</div>
+		</div>
+		<div class="container notification" id="legends">
+			<h2>Legends</h2>
+			<span>
+				Modalitat no puntuable, simplement exhibició de cotxes clàsics del campeonat, Audi quattro, Lancia Delta, M3...<br>
+			</span>
+		</div>
+		<br>
+
+		<div class="container notification" id="legends">
+			<h2>Inscrits</h2>
+			<span>
+				<a href="../pdf/inscrits.pdf">llista de inscrits</a><br>
+			</span>
+		</div>
 
 
-</body>
+
+
+		
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="social-wrapper">
+				<ul>
+					<li>
+					    <a href="https://twitter.com/rallylloret" target="_blank">
+					    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+					</li>
+					<li>
+					    <a href="https://www.instagram.com/rallylloret/" target="_blank">
+					    <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></a>
+					</li>
+					<li>
+					    <a href="https://www.facebook.com/RallyLloret/" target="_blank">
+					    <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
+					</li>
+				</ul>
+			</div>
+			<nav class="footer-nav" role="navigation">
+			<p>Copyright 2020-eternity Marc Cortadellas. All rights reserved.</p>
+			</nav>
+		</footer>	
+	</body>
 </html>
